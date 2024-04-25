@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading {
+    text-align: center; /* Center text content horizontally */
+    margin-top: 40px; /* Adjust margin top */
+    align-items: center; /* Center items along the cross-axis (vertically) */
+}
+
+
+#container {
+    height:30%;
+    margin-top: 40px; 
+    margin-bottom:30px;
+    text-align: center; /* Align inline-level content (like text and images) to the center horizontally */
+    display: flex; /* Use Flexbox to align items vertically and horizontally */
+    justify-content: center; /* Horizontally center flex items */
+    align-items: center; /* Vertically center flex items */
+}
+
+.choices {
+    border-radius: 50%;
+    text-align: center;
+    height: 80%; /* Adjust the height as a percentage of its parent's height */
+    width: 20%; /* Adjust the width as a percentage of its parent's width */
+    margin-left: 3%;
+   border:solid white;
+}
+
+.choices:hover{
+    border-color:#704444;
+    cursor: pointer;
+    border: black solid;
+}
+.score-cotainer{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    display:flex;
+    gap:2em;
+    align-items: center;
+    justify-content: center;
+}
+.msg-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 20vh; /* Optional: Set height of container */
+}
+
+.btn {
+    font-size: 1.5rem;
+    background-color: #704444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.btn:hover{
+      cursor: pointer;
+      background-color: #170a0a;
+}
+
+
+
